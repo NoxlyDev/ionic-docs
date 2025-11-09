@@ -13,7 +13,7 @@ import DocsCards from '@components/global/DocsCards';
   <title>AETHERION SMP — Lifesteal Minecraft Server</title>
   <meta
     name="description"
-    content="AETHERION SMP adalah server Lifesteal Minecraft dengan gameplay survival kompetitif, heart stealing system, event PvP, crossplay support, dan fitur premium tanpa pay-to-win."
+    content="AETHERION SMP is a Lifesteal Minecraft server offering competitive survival gameplay, heart-stealing mechanics, crossplay support, events, and fair progression."
   />
   <link rel="canonical" href="https://ae.noxlydev.xyz" />
   <link rel="alternate" href="https://ae.noxlydev.xyz" hreflang="x-default" />
@@ -21,40 +21,40 @@ import DocsCards from '@components/global/DocsCards';
   <meta property="og:url" content="https://ae.noxlydev.xyz" />
 </head>
 
-AETHERION SMP adalah **server Minecraft Lifesteal** yang menggabungkan kompetisi, strategi, dan survival intens dalam satu dunia penuh aksi dan intrik. Setiap kill memberikan heart tambahan, setiap kematian mengurangi heart—membuat setiap pertarungan berarti.
+**AETHERION SMP** is a **Lifesteal Minecraft Server** built around competitive survival, strategy, and high-risk PvP. Every kill grants an extra heart. Every death removes one. Every decision—fight or flee—matters.
 
-**IP Java & Bedrock:** `ae.noxlydev.xyz:20001`
+**Java & Bedrock IP:** `ae.noxlydev.xyz:20001`
 
-Mulai perjalananmu dengan join server atau cek panduan first-join untuk memahami sistem heart dan struktur dunia.
+Join the server or explore our guides to learn how the heart system, world zones, and gameplay mechanics work.
 
 <intro-end />
 
 <DocsCards>
   <DocsCard
-    header="Cara Join Server"
+    header="How to Join"
     href="/intro/join"
     icon="/icons/guide-installation-icon.svg"
     hoverIcon="/icons/guide-installation-icon-hover.svg"
   >
-    <p>Panduan lengkap join AETHERION SMP untuk pemain Java & Bedrock.</p>
+    <p>Step-by-step instructions for Java & Bedrock players.</p>
   </DocsCard>
 
   <DocsCard
-    header="Sistem Lifesteal"
+    header="Lifesteal System"
     href="/features/lifesteal"
     icon="/icons/guide-components-icon.svg"
     hoverIcon="/icons/guide-components-icon-hover.svg"
   >
-    <p>Penjelasan lengkap mekanisme steal heart, death penalty, dan recovery.</p>
+    <p>Dive deep into the heart-stealing mechanic, death penalty, and recovery rules.</p>
   </DocsCard>
 
   <DocsCard
-    header="Fitur & Gameplay"
+    header="Features & Gameplay"
     href="/features"
     icon="/icons/guide-native-icon.svg"
     hoverIcon="/icons/guide-native-icon-hover.svg"
   >
-    <p>Daftar fitur utama: event PvP, gear custom, world zones, season system.</p>
+    <p>Explore PvP events, custom gear, world zones, dungeons, and our seasonal system.</p>
   </DocsCard>
 
   <DocsCard
@@ -63,178 +63,189 @@ Mulai perjalananmu dengan join server atau cek panduan first-join untuk memahami
     icon="/icons/guide-theming-icon.svg"
     hoverIcon="/icons/guide-theming-icon-hover.svg"
   >
-    <p>Aturan server, anti-cheat, peraturan PvP, dan larangan untuk menjaga fairness.</p>
+    <p>Understand server rules, anti-cheat systems, PvP policies, and how we ensure fair play.</p>
   </DocsCard>
 </DocsCards>
 
 ## Overview
 
-AETHERION SMP adalah dunia survival **Lifesteal**, sebuah mode di mana pemain saling mencuri heart. Mekanik ini membuat pengalaman bermain menjadi intens, strategis, dan penuh resiko. Sistem kami stabil, seimbang, dan dioptimalkan untuk gameplay jangka panjang.
+AETHERION SMP is a **Lifesteal survival world** built for intensity. Players gain hearts by eliminating opponents and lose hearts upon death. When hearts hit zero, players face a temporary ban or spectator mode—depending on the season configuration.
 
-Server dapat dimainkan dari **Java maupun Bedrock** lewat IP yang sama, dengan performa terjaga dan anti-lag.
+The server is fully playable on both **Java and Bedrock**, optimized for smooth gameplay.
 
-Ingin melihat overview? Tonton video presentasi kami di:  
-**`Coming Soon — Aetherion Trailer`**
-
----
-
-### One heart system to rule them all
-
-Server ini menggunakan sistem heart:
-
-- Kill player → +1 heart
-- Death → -1 heart
-- 0 heart → ban sementara / spectate mode (tergantung season)
-
-Keseimbangan dibuat agar permainan tetap adil dan seru.
+A full cinematic trailer is coming soon.
 
 ---
 
-### Fokus pada Performa
+### One Heart System to Rule Them All
 
-AETHERION menggunakan optimisasi:
+The core mechanic:
 
+- Kill a player → **+1 Heart**
+- Die → **-1 Heart**
+- Reach 0 hearts → **temporary ban / spectate mode**
+
+Designed for balance. Built for chaos.
+
+---
+
+### Performance First
+
+AETHERION is optimized for maximum stability:
+
+- High TPS consistency
 - Fast chunk loading
-- TPS stabil
-- Anti-cheat custom
-- Sistem async untuk handling event besar
+- Custom anti-cheat
+- Asynchronous processing for heavy events
+- Zero pay-to-win interference
 
 ---
 
-### Desain Dunia Fantasy-Dark
+### Dark Fantasy World Design
 
-Dunia Aetherion menggabungkan:
+The Aetherion world includes:
 
-- Tema dark fantasy
+- Dark fantasy-themed spawn
+- Custom terrain
 - Warzone PvP area
-- Dungeon event
-- Nether zone dan resource pit
-- Safe spawn & merchant
+- Dungeon & boss events
+- Safe zones and merchant districts
 
 ---
 
-### Native & Web Optimized (untuk panel & API)
+### Reliable Tools & Panel
 
-Panel dan API untuk admin menggunakan teknologi modern untuk monitoring real-time.
+Admins have access to real-time tools:
+
+- Live TPS monitoring
+- Performance insight
+- Season reset system
+- Auto backups
+- Event triggers
 
 ---
 
 ## Goals
 
-### Crossplay
+### Crossplay Support
 
-AETHERION mendukung:
+AETHERION supports both:
 
-- Java Edition  
-- Bedrock Edition  
-- Mobile & Console  
+- **Java Edition**
+- **Bedrock Edition**
 
-Semua dapat join melalui satu IP.
-
----
-
-### Non-Pay-to-Win
-
-AETHERION bukan server pay-to-win.
-
-- Semua player equal
-- Item berbayar tidak memberikan unfair advantage
-- Cosmetic only (seasonal)
+Play from PC, mobile, console.
 
 ---
 
-### Beautiful Design
+### Fair Gameplay (No Pay-To-Win)
 
-Spawn & map dibangun dengan:
+We ensure:
 
-- tema dark-fantasy
-- struktur custom
-- path & lore yang menjelaskan cerita dunia
-
----
-
-### Simplicity
-
-Meskipun kompleks, sistem mudah dipahami:
-
-- UI tutorial
-- Command help
-- Guide book
+- Equal progression for all players
+- No unfair paid advantages
+- Cosmetic-only purchases (seasonal)
 
 ---
 
-## Framework Compatibility
+### Aesthetic Worldbuilding
 
-Komponen server berjalan secara modular menggunakan plugin:
+Our build team creates:
 
-### Java Plugin (Core)
+- Dark fantasy ambience
+- Custom structures
+- Lore-based paths & zones
+- Unique landmarks
 
-- Lifesteal core plugin
-- Anti-lag
-- Custom event handler
+---
 
-### Proxy (Bungee/Velocity)
+### Easy to Learn
 
-- Menghubungkan Bedrock & Java
-- Anti-bot
-- Auto-reconnect
+AETHERION is complex in depth, simple to understand:
 
-### Addon System
+- In-game tutorial guide
+- Command helper
+- Player handbook
 
-- Shop
+---
+
+## Server Architecture
+
+AETHERION SMP runs using a modular system:
+
+### Core (Java Plugins)
+
+- Lifesteal core engine
+- Anti-lag optimizations
+- Event engine
+- Combat balancing system
+
+### Proxy Layer
+
+- Bedrock/Java linking
+- Anti-bot filtering
+- Dynamic reconnect
+- Player queue for peak hours
+
+### Add-Ons
+
 - Economy
-- Claim (seasonal)
-- Guild/team system
+- Shop system
+- Clans/Guilds
+- Claims (seasonal)
+- Leaderboard engine
 
 ---
 
 ## Aetherion CLI (Admin Tools)
 
-Admin memiliki akses ke **Aetherion CLI**, tool internal untuk:
+Admins equipped with Aetherion CLI can:
 
-- Monitoring TPS
-- Watching performance logs
-- Managing events
-- Reset season
-- Auto backup world
+- Monitor TPS & performance
+- Manage players & punishments
+- Control events
+- Reset hearts or season
+- Trigger world backups
 
 ---
 
-## Season System
+## Seasons
 
-Setiap beberapa bulan, season di-reset:
+AETHERION runs in **Season cycles**:
 
-- heart reset
-- economy reset
-- leaderboard reset
-- reward diberikan untuk top players
+- Heart reset
+- Economy reset
+- Leaderboard reset
+- Special rewards for top players
+- Seasonal cosmetics & exclusive items
 
 ---
 
 ## Ecosystem
 
-AETHERION memiliki ekosistem komunitas aktif:
+AETHERION is powered by a growing community:
 
-- Event harian
-- Discord aktif
-- Guild & war
-- Kontributor map/custom build
+- Daily events
+- Active Discord (coming soon)
+- Guild wars & alliances
+- Custom builds & contributors
 
 ---
 
 ### Join the Community
 
-Bergabunglah dengan ribuan pemain:
+Ways to connect:
 
 - Discord (coming soon)
-- Instagram AETHERION
-- Forum komunitas
-- Report bug melalui panel
+- Instagram
+- Forum discussions
+- Bug/feature reports via dashboard
 
 ---
 
 ## License
 
-AETHERION SMP adalah proyek komunitas. Sistem, plugin, dan konten tertentu dilindungi oleh lisensi internal. Resource pack dan world build berlisensi khusus oleh tim kreatif Aetherion.
+AETHERION SMP content and assets are protected under internal licensing.  
+Custom worlds, textures, builds, and plugins are copyrighted by the Aetherion Creative Team.
 
 ---
