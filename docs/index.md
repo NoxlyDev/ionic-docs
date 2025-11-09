@@ -1,152 +1,240 @@
 ---
-title: Introduction to Ionic
+title: Introduction to AETHERION SMP
 sidebar_label: Overview
 slug: /
 hide_table_of_contents: true
-demoUrl: https://docs-demo.ionic.io/
-demoSourceUrl: https://github.com/ionic-team/docs-demo
+demoUrl: https://ae.noxlydev.xyz:20001/
 ---
 
 import DocsCard from '@components/global/DocsCard';
 import DocsCards from '@components/global/DocsCards';
 
 <head>
-  <title>Open-Source UI Toolkit to Create Your Own Mobile Apps</title>
+  <title>AETHERION SMP — Lifesteal Minecraft Server</title>
   <meta
     name="description"
-    content="Ionic Framework is an open-source UI toolkit to create your own mobile apps using web technologies with integrations for popular frameworks."
+    content="AETHERION SMP adalah server Lifesteal Minecraft dengan gameplay survival kompetitif, heart stealing system, event PvP, crossplay support, dan fitur premium tanpa pay-to-win."
   />
-  <link rel="canonical" href="https://ionicframework.com/docs" />
-  <link rel="alternate" href="https://ionicframework.com/docs" hreflang="x-default" />
-  <link rel="alternate" href="https://ionicframework.com/docs" hreflang="en" />
-  <meta property="og:url" content="https://ionicframework.com/docs" />
+  <link rel="canonical" href="https://ae.noxlydev.xyz" />
+  <link rel="alternate" href="https://ae.noxlydev.xyz" hreflang="x-default" />
+  <link rel="alternate" href="https://ae.noxlydev.xyz" hreflang="en" />
+  <meta property="og:url" content="https://ae.noxlydev.xyz" />
 </head>
 
-Ionic is an open source UI toolkit for building performant, high-quality mobile apps using web technologies — HTML, CSS, and JavaScript — with integrations for popular frameworks like [Angular](angular/overview.md), [React](react/overview.md), and [Vue](vue/overview.md).
+AETHERION SMP adalah **server Minecraft Lifesteal** yang menggabungkan kompetisi, strategi, dan survival intens dalam satu dunia penuh aksi dan intrik. Setiap kill memberikan heart tambahan, setiap kematian mengurangi heart—membuat setiap pertarungan berarti.
 
-Get started building by [installing Ionic](intro/cli.md) or following our [First App Tutorial](intro/next.md#build-your-first-app) to learn the main concepts.
+**IP Java & Bedrock:** `ae.noxlydev.xyz:20001`
+
+Mulai perjalananmu dengan join server atau cek panduan first-join untuk memahami sistem heart dan struktur dunia.
 
 <intro-end />
 
 <DocsCards>
-  <DocsCard header="Installation Guide" href="/intro/cli" icon="/icons/guide-installation-icon.svg" hoverIcon="/icons/guide-installation-icon-hover.svg">
-    <p>Step-by-step guides to setting up your system and installing the framework.</p>
+  <DocsCard
+    header="Cara Join Server"
+    href="/intro/join"
+    icon="/icons/guide-installation-icon.svg"
+    hoverIcon="/icons/guide-installation-icon-hover.svg"
+  >
+    <p>Panduan lengkap join AETHERION SMP untuk pemain Java & Bedrock.</p>
   </DocsCard>
 
-<DocsCard
-  header="UI Components"
-  href="/components"
-  icon="/icons/guide-components-icon.svg"
-  hoverIcon="/icons/guide-components-icon-hover.svg"
->
-  <p>Dive into Ionic beautifully designed UI component library.</p>
-</DocsCard>
+  <DocsCard
+    header="Sistem Lifesteal"
+    href="/features/lifesteal"
+    icon="/icons/guide-components-icon.svg"
+    hoverIcon="/icons/guide-components-icon-hover.svg"
+  >
+    <p>Penjelasan lengkap mekanisme steal heart, death penalty, dan recovery.</p>
+  </DocsCard>
 
-<DocsCard
-  header="Native Functionality"
-  href="/native"
-  icon="/icons/guide-native-icon.svg"
-  hoverIcon="/icons/guide-native-icon-hover.svg"
->
-  <p>Integrate native device plugins, like Bluetooth, Maps, HealthKit, and more.</p>
-</DocsCard>
+  <DocsCard
+    header="Fitur & Gameplay"
+    href="/features"
+    icon="/icons/guide-native-icon.svg"
+    hoverIcon="/icons/guide-native-icon-hover.svg"
+  >
+    <p>Daftar fitur utama: event PvP, gear custom, world zones, season system.</p>
+  </DocsCard>
 
-  <DocsCard header="Theming" href="/theming/basics" icon="/icons/guide-theming-icon.svg" hoverIcon="/icons/guide-theming-icon-hover.svg">
-    <p>Learn to easily customize and modify your Ionic app's visual design to fit your brand.</p>
+  <DocsCard
+    header="Rules & Safety"
+    href="/rules"
+    icon="/icons/guide-theming-icon.svg"
+    hoverIcon="/icons/guide-theming-icon-hover.svg"
+  >
+    <p>Aturan server, anti-cheat, peraturan PvP, dan larangan untuk menjaga fairness.</p>
   </DocsCard>
 </DocsCards>
 
 ## Overview
 
-Ionic focuses on the frontend UX and UI interaction of an app — UI controls, interactions, gestures, animations. It's easy to learn, and integrates with other libraries or frameworks, such as [Angular](angular/overview.md), [React](react/overview.md), or [Vue](vue/overview.md). Alternatively, it can be used standalone without any frontend framework using a simple [script include](intro/cdn.md). If you’d like to learn more about Ionic before diving in, we <a href="https://youtu.be/p3AN3igqiRc" target="_blank">created a video</a> to walk you through the basics.
+AETHERION SMP adalah dunia survival **Lifesteal**, sebuah mode di mana pemain saling mencuri heart. Mekanik ini membuat pengalaman bermain menjadi intens, strategis, dan penuh resiko. Sistem kami stabil, seimbang, dan dioptimalkan untuk gameplay jangka panjang.
 
-### One codebase, running everywhere
+Server dapat dimainkan dari **Java maupun Bedrock** lewat IP yang sama, dengan performa terjaga dan anti-lag.
 
-Ionic is the only mobile app stack that enables web developers to build apps for all major app stores and the mobile web from a single codebase. And with [Adaptive Styling](theming/platform-styles.md), Ionic apps look and feel at home on every device.
+Ingin melihat overview? Tonton video presentasi kami di:  
+**`Coming Soon — Aetherion Trailer`**
 
-### A focus on performance
+---
 
-Ionic is built to perform and behave great on the latest mobile devices with best practices like efficient hardware accelerated transitions, and touch-optimized gestures.
+### One heart system to rule them all
 
-### Clean, simple, and functional design
+Server ini menggunakan sistem heart:
 
-Ionic is designed to work and display beautifully on all current mobile devices and platforms. With ready-made components, typography, and a gorgeous (yet extensible) base theme that adapts to each platform, you'll be building in style.
+- Kill player → +1 heart
+- Death → -1 heart
+- 0 heart → ban sementara / spectate mode (tergantung season)
 
-### Native and Web optimized
+Keseimbangan dibuat agar permainan tetap adil dan seru.
 
-Ionic emulates native app UI guidelines and uses native SDKs, bringing the UI standards and device features of native apps together with the full power and flexibility of the open web. Ionic uses Capacitor (or Cordova) to deploy natively, or runs in the browser as a Progressive Web App.
+---
+
+### Fokus pada Performa
+
+AETHERION menggunakan optimisasi:
+
+- Fast chunk loading
+- TPS stabil
+- Anti-cheat custom
+- Sistem async untuk handling event besar
+
+---
+
+### Desain Dunia Fantasy-Dark
+
+Dunia Aetherion menggabungkan:
+
+- Tema dark fantasy
+- Warzone PvP area
+- Dungeon event
+- Nether zone dan resource pit
+- Safe spawn & merchant
+
+---
+
+### Native & Web Optimized (untuk panel & API)
+
+Panel dan API untuk admin menggunakan teknologi modern untuk monitoring real-time.
+
+---
 
 ## Goals
 
-### Cross-platform
+### Crossplay
 
-Build and deploy apps that work across multiple platforms, such as native iOS, Android, and the web as a Progressive Web App - all with one code base. Write once, run anywhere.
+AETHERION mendukung:
 
-### Web Standards-based
+- Java Edition  
+- Bedrock Edition  
+- Mobile & Console  
 
-Ionic is built on top of reliable, [standardized web technologies](reference/glossary.md#web-standards): HTML, CSS, and JavaScript, using modern Web APIs such as Custom Elements and Shadow DOM. Because of this, Ionic components have a stable API, and aren't at the whim of a single platform vendor.
+Semua dapat join melalui satu IP.
+
+---
+
+### Non-Pay-to-Win
+
+AETHERION bukan server pay-to-win.
+
+- Semua player equal
+- Item berbayar tidak memberikan unfair advantage
+- Cosmetic only (seasonal)
+
+---
 
 ### Beautiful Design
 
-Clean, simple, and functional. Ionic is designed to work and display beautifully out-of-the-box across all platforms.
-Start with pre-designed components, typography, interactive paradigms, and a gorgeous (yet extensible) base theme.
+Spawn & map dibangun dengan:
+
+- tema dark-fantasy
+- struktur custom
+- path & lore yang menjelaskan cerita dunia
+
+---
 
 ### Simplicity
 
-Ionic is built with simplicity in mind, so that creating apps is enjoyable, easy to learn, and accessible to just about anyone with web development skills.
+Meskipun kompleks, sistem mudah dipahami:
+
+- UI tutorial
+- Command help
+- Guide book
+
+---
 
 ## Framework Compatibility
 
-While past releases of Ionic were tightly coupled to Angular, version 4.x of the framework was re-engineered to work as a standalone <a href="https://developer.mozilla.org/en-US/docs/Web/Web_Components" target="_blank">Web Component</a> library, with integrations for the latest JavaScript frameworks, like Angular. Ionic can be used in most frontend frameworks with success, including React and Vue, though some frameworks need a shim for full Web Component support.
+Komponen server berjalan secara modular menggunakan plugin:
 
-### JavaScript
+### Java Plugin (Core)
 
-One of the main goals with moving Ionic to <a href="https://developer.mozilla.org/en-US/docs/Web/Web_Components" target="_blank">Web Components</a> was to remove any hard requirement on a single framework to host the components. This made it possible for the core components to work standalone in a web page with just a script tag. While working with frameworks can be great for larger teams and larger apps, it is now possible to use Ionic as a standalone library in a single page even in a context like WordPress.
+- Lifesteal core plugin
+- Anti-lag
+- Custom event handler
 
-### Angular
+### Proxy (Bungee/Velocity)
 
-Angular has always been at the center of what makes Ionic great. While the core components have been written to work as a standalone Web Component library, the `@ionic/angular` package makes integration with the Angular ecosystem a breeze. `@ionic/angular` includes all the functionality that Angular developers would expect coming from Ionic 2/3, and integrates with core Angular libraries, like the Angular router.
+- Menghubungkan Bedrock & Java
+- Anti-bot
+- Auto-reconnect
 
-### React
+### Addon System
 
-Ionic now has official support for the popular React library. Ionic React lets React developers use their existing web skills to build apps that target iOS, Android, and the web. With `@ionic/react`, you can use all the core Ionic components, but in a way that feels like using native React components.
+- Shop
+- Economy
+- Claim (seasonal)
+- Guild/team system
 
-### Vue
+---
 
-Ionic now has official support for the popular Vue 3 library. Ionic Vue lets Vue developers use their existing web skills to build apps that target iOS, Android, and the web. With `@ionic/vue`, you can use all the core Ionic components, but in a way that feels like using native Vue components.
+## Aetherion CLI (Admin Tools)
 
-### Future Support
+Admin memiliki akses ke **Aetherion CLI**, tool internal untuk:
 
-Support for other frameworks will be considered in future releases.
+- Monitoring TPS
+- Watching performance logs
+- Managing events
+- Reset season
+- Auto backup world
 
-## Ionic CLI
+---
 
-The official [Ionic CLI](cli.md), or Command Line Interface, is a tool that quickly scaffolds Ionic apps and provides a number of helpful commands to Ionic developers. In addition to installing and updating Ionic, the CLI comes with a built-in development server, build and debugging tools, and much more. If you are an [Appflow](#appflow) member, the CLI can be used to perform cloud builds and deployments, and administer your account.
+## Season System
 
-## Appflow
+Setiap beberapa bulan, season di-reset:
 
-To help build, deploy, and manage Ionic apps throughout their lifecycle, we offer a commercial service for production apps called <a href="https://ionic.io/appflow" target="_blank">Appflow</a>, which is <strong>separate from the open source Framework.</strong>
+- heart reset
+- economy reset
+- leaderboard reset
+- reward diberikan untuk top players
 
-Appflow helps developers and teams compile native app builds and deploy live code updates to Ionic apps from a centralized dashboard. Optional paid upgrades are available for more advanced capabilities like publishing directly to app stores, workflow automation, single sign-on (SSO) and access to connected services and integrations.
-
-Appflow requires an <a href="https://dashboard.ionicframework.com/signup" target="_blank">Ionic Account</a> and comes with a free “Hobby” plan for those interested in playing around with some of its features.
+---
 
 ## Ecosystem
 
-Ionic is actively developed and maintained full-time by a core team, and its ecosystem is guided by an international community of developers and contributors fueling its growth and adoption. Developers and companies small and large use Ionic to build and ship amazing apps that run everywhere.
+AETHERION memiliki ekosistem komunitas aktif:
+
+- Event harian
+- Discord aktif
+- Guild & war
+- Kontributor map/custom build
+
+---
 
 ### Join the Community
 
-There are millions of Ionic developers in over 200 countries worldwide. Here are some ways to join:
+Bergabunglah dengan ribuan pemain:
 
-<!-- prettier-ignore -->
-- <a href="https://forum.ionicframework.com/" target="_blank">Forum:</a> A great place for asking questions and sharing ideas.
-- <a href="https://twitter.com/ionicframework" target="_blank">Twitter:</a> Where we post updates and share content from the Ionic community.
-- <a href="https://github.com/ionic-team/ionic" target="_blank">GitHub:</a> For reporting bugs or requesting new features, create an issue here. PRs welcome!
-- <a href="https://ionicframework.com/contributors" target="_blank">Content authoring:</a> Write a technical blog or share your story with the Ionic community.
+- Discord (coming soon)
+- Instagram AETHERION
+- Forum komunitas
+- Report bug melalui panel
+
+---
 
 ## License
 
-The Ionic UI Toolkit is a free and open source project, released under the permissible <a href="https://opensource.org/licenses/MIT" target="_blank">MIT license</a>. This means it can be used in personal or commercial projects for free. MIT is the same license used by such popular projects as jQuery and Ruby on Rails.
+AETHERION SMP adalah proyek komunitas. Sistem, plugin, dan konten tertentu dilindungi oleh lisensi internal. Resource pack dan world build berlisensi khusus oleh tim kreatif Aetherion.
 
-This documentation content (found in the <a href="https://github.com/ionic-team/ionic-docs" target="_blank">ionic-docs</a> repo) is licensed under the <a href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache 2 license</a>.
+---
